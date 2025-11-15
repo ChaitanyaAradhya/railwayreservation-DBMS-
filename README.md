@@ -1,1 +1,23 @@
-This Railway Reservation Management System is a web-based DBMS project developed using PHP, MySQL, HTML, and CSS, designed to simplify and digitize the process of searching trains, checking seat availability, and booking tickets. The system allows users to register, log in, view available trains, reserve seats, and check their booking history, while administrators can securely log in to add new trains, update schedules, manage user reservations, and maintain all train and passenger records in the database. Built on core DBMS concepts such as relational schema design, CRUD operations, and authentication, this project offers an efficient, user-friendly platform for handling railway reservation operations in a centralized and automated manner, making it suitable for academic submissions and practical learning.
+# railway-management-system
+Railway Management System website built as course project in DBMS subject,B.Tech. Used SQL , html ,css and php.
+
+To install and run on your pc:-
+
+1)Sign up and sign in in your sql database.
+
+2)Run railway.sql and save databse. 
+
+3)Add your sql password and user name in indicated portion of db.php file.
+
+4)Make sure you have active sql database connection. To do so you can use local server solution software like xampp which is open source and easy to use , or deploy 
+site on a web server connected to sql.
+
+For deploying on local host using xampp:-
+
+a)Navigate to folder where xampp is installed. Inside, there is afolder named htdocs, make a folder named railway there. Path would look something like this-"~\xampp\htdocs\railway\". Place the the project files in this folder.
+
+b)Go to xampp control panel and make sure mysql service is in running state.
+
+c)Open index.htm in your browser.
+
+5)Finally run index.htm
